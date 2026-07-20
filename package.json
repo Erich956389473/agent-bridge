@@ -1,0 +1,28 @@
+{
+  "name": "agent-bridge",
+  "version": "0.1.0",
+  "description": "Bridge for Agent-to-Agent communication across different protocols (MCP, A2A, HTTP, WebSocket). Agent 间通信桥接工具。",
+  "main": "src/index.js",
+  "bin": {
+    "agent-bridge": "./bin/agent-bridge.js"
+  },
+  "scripts": {
+    "test": "jest",
+    "start": "node bin/agent-bridge.js"
+  },
+  "keywords": ["a2a", "mcp", "agent", "bridge", "communication", "protocol"],
+  "author": "Erich956389473",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Erich956389473/agent-bridge"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^11.0.0",
+    "ws": "^8.14.0"
+  },
+  "devDependencies": {
+    "jest": "^29.6.0"
+  }
+}
