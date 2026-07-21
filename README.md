@@ -3,6 +3,10 @@
 > Bridge for Agent-to-Agent communication across different protocols.
 > Agent 间通信桥接工具，支持多种协议。
 
+[![CI](https://github.com/Erich956389473/agent-bridge/actions/workflows/ci.yml/badge.svg)](https://github.com/Erich956389473/agent-bridge/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![npm version](https://img.shields.io/npm/v/@erichlee/agent-bridge)](https://www.npmjs.com/package/@erichlee/agent-bridge)
+
 A unified communication bridge that allows Agents using different protocols (MCP, A2A, HTTP, WebSocket) to communicate with each other.
 
 一个统一的通信桥接工具，允许使用不同协议（MCP、A2A、HTTP、WebSocket）的 Agent 相互通信。
